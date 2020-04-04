@@ -1,0 +1,19 @@
+{
+  "name": "HeathersRecipes",
+  "version": "1.0.0",
+  "description": "Managing Heather&#39;s Recipes.",
+  "author": "Avery Smith",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
