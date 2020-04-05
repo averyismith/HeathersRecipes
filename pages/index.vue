@@ -4,9 +4,9 @@
       <!-- <logo /> -->
      
       <h1 class="title">
-        HeathersRecipes
+        Heather's Recipes
       </h1>
-      <h2>Maniging Heather's recipies</h2>
+      <h2>Managing Heather's recipies</h2>
        <RecipeList/>
     </div>
   </div>
