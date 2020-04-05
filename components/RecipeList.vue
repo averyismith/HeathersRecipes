@@ -49,8 +49,11 @@ export default {
   },
   methods: {
     addRecipe: function(event) {
-      alert("Add Recipe! " + this.recipe.title);
-      this.recipes.push(this.recipe);
+      if(!this.recipe.title) {
+        alert("Please add a Title");
+        return;
+      }
+       this.recipes.push(this.recipe);
     }
   }
 };

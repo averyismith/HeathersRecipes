@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "netlify": "^4.0.3",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
