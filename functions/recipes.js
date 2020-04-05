@@ -3,7 +3,7 @@ const faunadb = require('faunadb')
 
 const q = faunadb.query
 const client = new faunadb.Client({
-  secret: process.env.FAUNADB_SERVER_SECRET
+  secret: process.env.FAUNADB_SECRET_KEY
 })
 
 exports.handler = (event, context) => {
@@ -14,7 +14,7 @@ exports.handler = (event, context) => {
       console.log('Recipe refs', recipeRefs)
       console.log(`${recipeRefs.length} recipes found`)
       // create new query out of todo refs. http://bit.ly/2LG3MLg
-      const getAllRecipeDataQuery = todoRefs.map((ref) => {
+      const getAllRecipeDataQuery = recipeRefs.map((ref) => {
         return q.Get(ref)
       })
       // then query the refs

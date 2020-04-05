@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "faunadb": "^2.13.1",
     "netlify": "^4.0.3",
     "nuxt": "^2.0.0"
   },
